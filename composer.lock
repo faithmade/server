@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "61100f4224f73285cec5b6614f3a536d",
+    "hash": "85ded1925977a683a750cd1d7cd9e034",
     "packages": [
         {
             "name": "automattic/jetpack",
@@ -128,95 +128,6 @@
             "time": "2015-02-18 17:17:01"
         },
         {
-            "name": "faithmade/churchthemes",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/faithmade/churchthemes.git",
-                "reference": "54d2cd1261b3916cfebb7f9bfa19ad19d34f2245"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/faithmade/churchthemes/zipball/54d2cd1261b3916cfebb7f9bfa19ad19d34f2245",
-                "reference": "54d2cd1261b3916cfebb7f9bfa19ad19d34f2245",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Sermons, people, locations, and events support for use with any theme built for Rock",
-            "time": "2015-07-09 14:44:29"
-        },
-        {
-            "name": "faithmade/faith-builder",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/faithmade/faith-builder.git",
-                "reference": "4f0bb2d5993d751699f2bc6431ef13c9ae181dd3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/faithmade/faith-builder/zipball/4f0bb2d5993d751699f2bc6431ef13c9ae181dd3",
-                "reference": "4f0bb2d5993d751699f2bc6431ef13c9ae181dd3",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Custom modules and configuration for the Beaver Builder implementation for Faithmade",
-            "time": "2015-07-09 14:44:46"
-        },
-        {
-            "name": "faithmade/praise",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/faithmade/praise.git",
-                "reference": "f503ee99b39a143e6a640e4077b547b9297b9f9a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/faithmade/praise/zipball/f503ee99b39a143e6a640e4077b547b9297b9f9a",
-                "reference": "f503ee99b39a143e6a640e4077b547b9297b9f9a",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-theme",
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "WordPress child theme for Rock",
-            "time": "2015-07-09 14:44:54"
-        },
-        {
-            "name": "faithmade/rock",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/faithmade/rock.git",
-                "reference": "dbafd63c60856c9e9a8655947dbbdd8a9dc7d734"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/faithmade/rock/zipball/dbafd63c60856c9e9a8655947dbbdd8a9dc7d734",
-                "reference": "dbafd63c60856c9e9a8655947dbbdd8a9dc7d734",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "v1.0.21",
-                "tgmpa/tgm-plugin-activation": "*"
-            },
-            "type": "wordpress-theme",
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "WordPress theme framework for Faithmade",
-            "time": "2015-07-09 17:11:07"
-        },
-        {
             "name": "johnpbloch/wordpress",
             "version": "4.2.2",
             "source": {
@@ -302,61 +213,6 @@
             "time": "2015-06-11 15:15:30"
         },
         {
-            "name": "tgmpa/tgm-plugin-activation",
-            "version": "2.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TGMPA/TGM-Plugin-Activation.git",
-                "reference": "0904ac2073c64aa453170de77dcb6a365b103d6d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TGMPA/TGM-Plugin-Activation/zipball/0904ac2073c64aa453170de77dcb6a365b103d6d",
-                "reference": "0904ac2073c64aa453170de77dcb6a365b103d6d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "class-tgm-plugin-activation.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Griffin",
-                    "homepage": "http://thomasgriffinmedia.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Gary Jones",
-                    "homepage": "https://github.com/GaryJones",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Juliette Reinders Folmer",
-                    "homepage": "https://github.com/jrfnl",
-                    "role": "Developer"
-                }
-            ],
-            "description": "TGM Plugin Activation is a PHP library that allows you to easily require or recommend plugins for your WordPress themes (and plugins).",
-            "homepage": "http://tgmpluginactivation.com",
-            "keywords": [
-                "activation",
-                "library",
-                "plugins",
-                "theme",
-                "wordpress"
-            ],
-            "time": "2015-07-03 21:08:04"
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v2.0.1",
             "source": {
@@ -423,7 +279,7 @@
             "homepage": "https://wordpress.org/plugins/post-type-archive-links/"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": null,
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {

@@ -9,11 +9,13 @@
   "require": {
     "johnpbloch/wordpress": "*",
     "vlucas/phpdotenv": "*",
+    "automattic/jetpack": "*",
+    "wpackagist-plugin/post-type-archive-links": "*"
+  },
+  "require-dev": {
     "faithmade/rock": "dev-master",
     "faithmade/praise": "dev-master",
     "faithmade/faith-builder": "dev-master",
-    "faithmade/churchthemes": "dev-master",
-    "automattic/jetpack": "*",
-    "wpackagist-plugin/post-type-archive-links": "*"
+    "faithmade/churchthemes": "dev-master"
   }
 }
