@@ -1,0 +1,19 @@
+{
+  "name": "faithmade/faithmade",
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "johnpbloch/wordpress": "*",
+    "vlucas/phpdotenv": "*",
+    "faithmade/rock": "dev-master",
+    "faithmade/praise": "dev-master",
+    "faithmade/faith-builder": "dev-master",
+    "faithmade/churchthemes": "dev-master",
+    "automattic/jetpack": "*",
+    "wpackagist-plugin/post-type-archive-links": "*"
+  }
+}
