@@ -9,7 +9,6 @@
   "require": {
     "johnpbloch/wordpress": "*",
     "vlucas/phpdotenv": "*",
-    "automattic/jetpack": "*",
     "wpackagist-plugin/post-type-archive-links": "*"
   },
   "require-dev": {
