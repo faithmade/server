@@ -1,8 +1,6 @@
 <?php
 
-require 'vendor/vlucas/phpdotenv/src/Dotenv.php';
-require 'vendor/vlucas/phpdotenv/src/Loader.php';
-require 'vendor/vlucas/phpdotenv/src/Validator.php';
+require __DIR__ . '/vendor/autoload.php';
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
@@ -53,9 +51,6 @@ define('WP_HOME',    "http://${_SERVER['HTTP_HOST']}");
 /** The location of the wp-content folder */
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
 define( 'WP_CONTENT_URL', "http://${_SERVER['HTTP_HOST']}/wp-content" );
-
-/** Set Jetpack to debug mode */
-define ('JETPACK_DEV_DEBUG', true);
 
 /**#@+
  * Authentication Unique Keys and Salts.
